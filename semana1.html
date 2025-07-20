@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Espirituais para Mães - Semana 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* Define as variáveis de cor para os temas */
+        :root {
+            --color-bg: #E7F0C7;
+            --color-surface: #FFFFFF;
+            --color-primary: #BCDFB9;
+            --color-secondary: #C87F8B;
+            --color-accent: #E9A97F;
+            --color-text-base: #000000;
+            --color-text-muted: #3a3a3a;
+            --color-border: #e0e0e0;
+        }
+
+        .dark {
+            --color-bg: #1a202c;
+            --color-surface: #2d3748;
+            --color-primary: #4a5568;
+            --color-secondary: #C87F8B;
+            --color-accent: #E9A97F;
+            --color-text-base: #E7F0C7;
+            --color-text-muted: #a0aec0;
+            --color-border: #4a5568;
+        }
+
+        /* Aplica as variáveis de cor com classes do Tailwind */
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--color-bg);
+            color: var(--color-text-base);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h1, h2, h3, h4, h5, h6, .font-heading {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .bg-custom-bg { background-color: var(--color-bg); }
+        .bg-custom-surface { background-color: var(--color-surface); }
+        .bg-custom-primary { background-color: var(--color-primary); }
+        .text-custom-base { color: var(--color-text-base); }
+        .text-custom-muted { color: var(--color-text-muted); }
+        .border-custom { border-color: var(--color-border); }
+        .fill-custom-base { fill: var(--color-text-base); }
+        
+        /* Estilo para a transição do ícone do acordeão */
+        .accordion-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        .accordion-button[aria-expanded="true"] .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Estilo para as citações */
+        blockquote {
+            border-left: 4px solid var(--color-accent);
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--color-text-muted);
+        }
+    </style>
+</head>
+<body class="bg-custom-bg text-custom-base">
+
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        
+        <header class="flex justify-between items-center mb-8">
+            <div>
+                <h1 class="text-3xl md:text-4xl font-bold text-custom-base">Exercícios Espirituais para Mães</h1>
+                <p class="text-lg text-custom-muted font-heading">Um caminho de fé e esperança</p>
+            </div>
+            <button id="theme-toggle" class="p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-custom-bg focus:ring-custom-accent">
+                <svg id="theme-icon-light" class="w-6 h-6 fill-custom-base" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                <svg id="theme-icon-dark" class="w-6 h-6 hidden fill-custom-base" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.121-1.414a1 1 0 010 1.414l-.707.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-4.464-1.05a1 1 0 00-1.414 1.414l.707.707a1 1 0 101.414-1.414l-.707-.707zM3 10a1 1 0 011-1h1a1 1 0 110 2H4a1 1 0 01-1-1z"></path></svg>
+            </button>
+        </header>
+
+        <main class="space-y-6">
+            <h2 class="text-2xl font-bold font-heading border-b-2 border-custom pb-2">Primeira Semana</h2>
+            
+            <div class="space-y-4">
+                
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 1: Segunda-feira</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Querida mãe, sabemos que o seu coração conhece a presença constante de Deus. Mas, às vezes, o peso das preocupações com os filhos nos faz esquecer dessa companhia que é pura força e amor. Este primeiro passo é um convite para aquietar a alma e se lembrar conscientemente de que você não está sozinha. É abrir o coração para conversar com Aquele que entende cada uma de suas lágrimas e anseios. Ele está aqui, ao seu lado, pronto para ouvir e fortalecer você.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>Respire fundo algumas vezes. Sinta o ar encher seus pulmões e, ao soltar, libere as tensões. Repita em seu coração: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Com o coração aberto, peça com sinceridade, repetindo de forma suave para sentir o sabor de cada palavra: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Acaso, pode uma mulher esquecer-se do filho que ainda mama...?” (Isaías 49:14-16)</p>
+                            <blockquote>“Mas Sião diz: O SENHOR me desamparou, o Senhor se esqueceu de mim. Acaso, pode uma mulher esquecer-se do filho que ainda mama, de sorte que não se compadeça do filho do seu ventre? Mas ainda que esta viesse a se esquecer dele, eu, todavia, não me esquecerei de ti. Eis que nas palmas das minhas mãos te gravei; os teus muros estão continuamente perante mim.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Converse com Deus como uma mãe conversa com um Pai amoroso. Entregue a Ele suas angústias, os nomes de seus filhos e a certeza de que o amor d'Ele é ainda maior que o seu.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Anote em seu caderno o que o coração sentiu ao meditar sobre esse amor de Deus que nunca se esquece de nós e de nossos filhos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 2: Terça-feira</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Pedir a graça de Deus não é lembrar a Ele do que precisamos, pois Ele já conhece nosso coração. É um ato de humildade e entrega. Ao pedir, você abre as mãos e o coração, dizendo: "Senhor, eu confio em Ti, não na minha própria força". Repetir o mesmo pedido todos os dias desta semana ajuda a moldar seu espírito para receber o que Deus quer lhe dar. É como preparar a terra do seu coração para que a semente da graça divina possa brotar e dar frutos de paz e esperança.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                             <p>Acalme seu coração. Respire fundo. Sinta a presença de Deus ao seu redor e dentro de você. Repita com convicção: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Deixe que este desejo profundo brote de sua alma. Fale com Deus, repetindo suavemente: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“O que habita no esconderijo do Altíssimo... descansará.” (Salmo 91:1-7, 9-11, 14-16)</p>
+                            <blockquote>“O que habita no esconderijo do Altíssimo e descansa à sombra do Onipotente diz ao SENHOR: Meu refúgio e meu baluarte, Deus meu, em quem confio. Pois ele te livrará do laço do passarinheiro e da peste perniciosa. Cobrir-te-á com as suas penas, e, sob suas asas, estarás seguro; a sua verdade é pavês e escudo. Não te assustarás do terror noturno, nem da seta que voa de dia, nem da peste que se propaga nas trevas, nem da mortandade que assola ao meio-dia. Caiam mil ao teu lado, e dez mil, à tua direita; tu não serás atingido.<br><br>Pois disseste: O SENHOR é o meu refúgio. Fizeste do Altíssimo a tua morada. Nenhum mal te sucederá, praga nenhuma chegará à tua tenda. Porque aos seus anjos dará ordens a teu respeito, para que te guardem em todos os teus caminhos.<br><br>Porque a mim se apegou com amor, eu o livrarei; pô-lo-ei a salvo, porque conhece o meu nome. Ele me invocará, e eu lhe responderei; na sua angústia eu estarei com ele, livrá-lo-ei e o glorificarei. Saciá-lo-ei com longevidade e lhe mostrarei a minha salvação.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Peça ao Senhor que cubra seus filhos com Suas asas protetoras. Ore este Salmo por eles, colocando cada um sob o refúgio seguro do Altíssimo.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Escreva a sensação de paz que brota da confiança na proteção de Deus. Anote o nome de cada filho para quem você dedicou esta oração.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 3: Quarta-feira</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Meditar a Palavra de Deus é mais do que ler; é deixar que ela ilumine as sombras do nosso coração. Hoje, permita que cada palavra ressoe dentro de você, especialmente quando o sentimento de impotência diante dos problemas dos filhos parecer grande. Não se apresse. Se uma frase tocar sua alma, pare, repita, saboreie. Pergunte ao Senhor: "O que esta promessa significa para mim, hoje? Como posso viver essa verdade em meio às minhas preocupações?". Deixe que a Palavra de Deus transforme seus pensamentos e sentimentos.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>Encontre um lugar tranquilo. Feche os olhos por um instante e respire. Lembre-se de que o Criador do Universo está com você. Diga com o coração: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Esta é a chave que abre o coração para o diálogo. Peça com humildade, sentindo o anseio da sua alma: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Se Deus é por nós, quem será contra nós?” (Romanos 8:26-28, 31-32, 37-39)</p>
+                            <blockquote>“Também o Espírito, semelhantemente, nos assiste em nossa fraqueza; porque não sabemos orar como convém, mas o mesmo Espírito intercede por nós sobremaneira, com gemidos inexprimíveis. E aquele que sonda os corações sabe qual é a mente do Espírito, porque segundo a vontade de Deus é que ele intercede pelos santos. Sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus, daqueles que são chamados segundo o seu propósito.<br><br>Que diremos, pois, à vista destas coisas? Se Deus é por nós, quem será contra nós? Aquele que não poupou o seu próprio Filho, antes, por todos nós o entregou, porventura, não nos dará graciosamente com ele todas as coisas?<br><br>Em todas estas coisas, porém, somos mais que vencedores, por meio daquele que nos amou. Porque eu estou bem certo de que nem a morte, nem a vida, nem os anjos, nem os principados, nem as coisas do presente, nem do porvir, nem os poderes, nem a altura, nem a profundidade, nem qualquer outra criatura poderá separar-nos do amor de Deus, que está em Cristo Jesus, nosso Senhor.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Fale com Jesus sobre as "fraquezas" e "angústias" que pesam em seu coração de mãe. Agradeça porque o Espírito Santo ora por você e por seus filhos, e reafirme sua fé de que nada pode separá-los do amor de Deus.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Escreva a frase que mais lhe deu força hoje. Talvez "somos mais que vencedores" ou "o Espírito nos assiste em nossa fraqueza". Guarde-a no coração.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 4: Quinta-feira</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Após silenciar para ouvir a voz de Deus na meditação, chega o momento de você falar com Ele. O colóquio é essa conversa íntima, de coração para coração. É o momento de transformar a Palavra que você meditou em uma oração pessoal. Fale com suas próprias palavras, sem medo. Agradeça pela Sua paz que excede todo entendimento, peça por ela sobre a vida de seus filhos, louve-O por Sua fidelidade. Deixe seu coração de mãe se derramar diante do Pai.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>Respire fundo. Sinta a paz de estar na companhia do seu Pai celestial. Repita com confiança: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Com um coração que anseia por mais de Deus, repita esta súplica, deixando que ela ecoe em seu ser: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Não andeis ansiosos de coisa alguma...” (Filipenses 4:4-9)</p>
+                            <blockquote>“Alegrai-vos sempre no Senhor; outra vez digo: alegrai-vos. Seja a vossa moderação conhecida de todos os homens. Perto está o Senhor. Não andeis ansiosos de coisa alguma; em tudo, porém, sejam conhecidas, diante de Deus, as vossas petições, pela oração и pela súplica, com ações de graças. E a paz de Deus, que excede todo o entendimento, guardará o vosso coração e a vossa mente em Cristo Jesus.<br><br>Finalmente, irmãos, tudo o que é verdadeiro, tudo o que é respeitável, tudo o que é justo, tudo o que é puro, tudo o que é amável, tudo o que é de boa fama, se alguma virtude há e se algum louvor existe, seja isso o que ocupe o vosso pensamento. O que também aprendestes, e recebestes, e ouvistes, e vistes em mim, isso praticai; e o Deus da paz será convosco.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Apresente a Deus, uma por uma, as ansiedades que você carrega. Troque cada preocupação por uma petição e um agradecimento, confiando que a paz d'Ele guardará seu coração e sua mente.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Anote uma ansiedade que você entregou a Deus hoje e a paz que você sentiu, mesmo que pequena, ao confiar n'Ele.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 5: Sexta-feira</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Anotar o que você sente durante a oração é como guardar um tesouro. Não se preocupe em escrever bonito ou de forma elaborada. O importante é registrar o que tocou sua alma. O que Deus sussurrou ao seu coração? Que sentimento predominou: consolo, esperança, um novo ânimo? Essas anotações serão como um mapa do seu caminho espiritual, um lembrete do cuidado de Deus nos dias em que a fé parecer mais frágil.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>Aquiete-se. Respire. Reconheça que você está em solo santo, na presença do seu Criador. Sussurre para si mesma: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Com um coração de filha, peça ao Pai. Repita com devoção: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Deus é o nosso refúgio e fortaleza...” (Salmo 46)</p>
+                            <blockquote>“Deus é o nosso refúgio e fortaleza, socorro bem presente nas tribulações. Portanto, não temeremos ainda que a terra se transtorne e os montes se abalem no seio dos mares; ainda que as águas tumultuem e espumejem e na sua fúria os montes se estremeçam. Há um rio, cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo. Deus está no meio dela; jamais será abalada; Deus a ajudará desde o romper da manhã. Bramam nações, reinos se abalam; ele faz ouvir a sua voz, e a terra se dissolve. O SENHOR dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio. Vinde, contemplai as obras do SENHOR, que assolações efetuou na terra. Ele põe termo à guerra até aos confins do mundo, quebra o arco e despedaça a lança; queima os carros no fogo. Aquietai-vos e sabei que eu sou Deus; sou exaltado entre as nações, sou exaltado na terra. O SENHOR dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Converse com Deus sobre as "águas" e "montes" que parecem se agitar na vida de seus filhos. Declare que, mesmo em meio a tudo, Deus é o seu refúgio e o refúgio deles. Peça a Ele: "Aquieta, Senhor, o meu coração e o coração dos meus filhos".</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Escreva em seu caderno: "Aquietai-vos e sabei que eu sou Deus". Deixe essa verdade acalmar seu coração e anote qualquer sentimento que surgir a partir dela.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 6: Sábado</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Se durante a semana você sentiu dificuldade em "saborear" a Palavra, não desanime. A vida de oração tem seus dias de secura. Apenas persevere. Verifique com carinho se você tem conseguido reservar este tempo para Deus. O mais importante é a sua fidelidade em buscá-Lo, mesmo quando não sente nada. É nesse deserto que a fé se fortalece e a esperança se aprofunda.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>Mesmo no cansaço, reserve este momento. Respire fundo e afirme com fé: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Peça com a simplicidade de uma criança que confia. Repita mansamente: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Bom é aguardar a salvação do SENHOR.” (Lamentações 3:21-26, 31-32)</p>
+                            <blockquote>“Quero trazer à memória o que me pode dar esperança. As misericórdias do SENHOR são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; renovam-se cada manhã. Grande é a tua fidelidade. A minha porção é o SENHOR, diz a minha alma; portanto, esperarei nele. Bom é o SENHOR para os que esperam por ele, para a alma que o busca. Bom é aguardar a salvação do SENHOR, e isso, em silêncio.<br><br>Pois o Senhor não rejeitará para sempre; pois, ainda que entristeça a alguém, usará de compaixão segundo a grandeza das suas misericórdias.”</blockquote>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Agradeça a Deus porque a Sua misericórdia se renova a cada manhã sobre você e seus filhos. Peça a graça de saber esperar em silêncio e com esperança pela Sua ação na vida deles.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Anote uma situação específica pela qual você decidiu "esperar no Senhor". Entregue-a a Ele mais uma vez e descanse na certeza da Sua fidelidade.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-custom-surface rounded-lg shadow-md overflow-hidden">
+                    <button class="accordion-button w-full flex justify-between items-center p-5 text-left font-heading font-semibold text-xl" aria-expanded="false">
+                        <span>Dia 7: Domingo</span>
+                        <svg class="accordion-icon w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0">
+                        <div class="prose max-w-none text-custom-base leading-relaxed">
+                            <h4 class="font-bold text-lg font-heading mt-4">Orientação</h4>
+                            <p>Hoje, ao concluir esta primeira semana, olhe para as anotações que você fez. Veja como Deus falou ao seu coração. Jesus nos revela um Deus que é Pai, próximo de nós, sensível às nossas dores e que nos dá a Sua graça para superarmos as dificuldades. Ele não tira os problemas com as mãos, mas nos segura pela mão para que possamos atravessá-los. Una sua oração à de seus irmãos no culto de hoje, fortalecendo sua fé em comunidade.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Primeiro Passo: Colocar-se na presença de Deus.</h4>
+                            <p>No dia do Senhor, sinta Sua presença de forma especial. Respire fundo e diga com gratidão: <em>“Deus está comigo e eu desejo estar com Deus, em sua presença e companhia”.</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Segundo Passo: pedir a Graça de Deus.</h4>
+                            <p>Com o coração grato pela semana, peça novamente: <em>“Senhor, ensina-me a orar!”</em></p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Terceiro Passo: meditar a Palavra de Deus.</h4>
+                            <p>“Não andeis ansiosos pela vossa vida...” (Mateus 6:25-34)</p>
+                            <blockquote>“Por isso, vos digo: não andeis ansiosos pela vossa vida, quanto ao que haveis de comer ou beber; nem pelo vosso corpo, quanto ao que haveis de vestir. Não é a vida mais do que o alimento, e o corpo, mais do que as vestes? Observai as aves do céu: não semeiam, неm colhem, nem ajuntam em celeiros; contudo, vosso Pai celeste as sustenta. Porventura, não valeis vós muito mais do que as aves? Qual de vós, por mais ansioso que esteja, pode acrescentar um côvado ao curso da sua vida? E por que andais ansiosos quanto ao vestuário? Considerai como crescem os lírios do campo: eles не trabalham, nem fiam. Eu, contudo, vos afirmo que nem Salomão, em toda a sua glória, se vestiu como qualquer deles. Ora, se Deus veste assim a erva do campo, que hoje existe e amanhã é lançada no forno, quanto mais a vós outros, homens de pequena fé? Portanto, não vos inquieteis, dizendo: Que comeremos? Que beberemos? Ou: Com que nos vestiremos? Porque os gentios é que procuram todas estas coisas; pois vosso Pai celeste sabe que necessitais de todas elas; buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas. Portanto, não vos inquieteis com o dia de amanhã, pois o amanhã trará os seus cuidados; basta ao dia o seu próprio mal.”</blockquote>
+
+                            <h4 class="font-bold text-lg font-heading mt-4">Quarto Passo: fazer um colóquio com Deus.</h4>
+                            <p>Agradeça a Deus pelo Seu cuidado constante. Entregue a Ele a próxima semana, pedindo a graça de buscar primeiro o Seu Reino e confiar que Ele cuidará de todas as outras coisas, na sua vida e na vida de seus filhos.</p>
+                            
+                            <h4 class="font-bold text-lg font-heading mt-4">Quinto Passo: anotar.</h4>
+                            <p>Anote o principal fruto espiritual que você colheu nesta primeira semana de exercícios. O que mudou em seu coração ao meditar sobre o cuidado de Deus?</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+
+    <script>
+        // Lógica para o seletor de tema
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const lightIcon = document.getElementById('theme-icon-light');
+        const darkIcon = document.getElementById('theme-icon-dark');
+        const htmlEl = document.documentElement;
+
+        // Função para aplicar o tema
+        const applyTheme = (theme) => {
+            if (theme === 'dark') {
+                htmlEl.classList.add('dark');
+                lightIcon.classList.add('hidden');
+                darkIcon.classList.remove('hidden');
+            } else {
+                htmlEl.classList.remove('dark');
+                lightIcon.classList.remove('hidden');
+                darkIcon.classList.add('hidden');
+            }
+        };
+
+        // Verifica o tema salvo no localStorage ou a preferência do sistema
+        const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        applyTheme(currentTheme);
+
+        // Adiciona o evento de clique ao botão
+        themeToggleBtn.addEventListener('click', () => {
+            const newTheme = htmlEl.classList.contains('dark') ? 'light' : 'dark';
+            localStorage.setItem('theme', newTheme);
+            applyTheme(newTheme);
+        });
+
+        // Lógica para o acordeão
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+                button.setAttribute('aria-expanded', !isExpanded);
+                content.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
